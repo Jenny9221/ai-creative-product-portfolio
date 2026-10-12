@@ -4,6 +4,9 @@ node_modules/
 out/
 work/
 outputs/
+output/
+tmp/
+public/images/*.pdf
 .env*
 !.env.example
 *.log
