@@ -46,7 +46,7 @@ export default function PortfolioPage() {
           </div>
         </div>
         <div className="profile-meta">
-          <div><strong>04</strong><span>精选项目</span></div>
+          <div><strong>03</strong><span>精选项目</span></div>
           <div><strong>03</strong><span>重点创新方向</span></div>
           <div><strong>01</strong><span>端到端设计方法</span></div>
           <div className="contact-mini"><span>CONTACT</span><p>E-mail / hjn021229@126.com</p></div>
@@ -56,7 +56,7 @@ export default function PortfolioPage() {
       <section className="projects-section" id="projects">
         <div className="shell section-heading">
           <div className="section-label"><span>02</span> SELECTED WORKS</div>
-          <h2>四个项目，<br />四种<em>把问题重新定义</em>的方式。</h2>
+          <h2>三个项目，<br />三种<em>把问题重新定义</em>的方式。</h2>
         </div>
         <div className="project-list shell">
           {projects.map((project) => (

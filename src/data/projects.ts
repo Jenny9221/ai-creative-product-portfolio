@@ -93,31 +93,6 @@ export const projects: Project[] = [
     ],
     accent: "amber",
   },
-  {
-    slug: "yanan-vr",
-    image: "/images/p04-cover.jpg",
-    gallery: [],
-    index: "04",
-    title: "延安自然科学院旧址 VR 大空间体验设计",
-    shortTitle: "延安 VR 大空间",
-    tags: ["VR 体验", "叙事设计", "落地实践"],
-    summary: "用 VR 重构校史叙事，通过叙事、指引物料与内测迭代，完成面向公众开放的长期展陈项目。",
-    year: "2025.09-2025.10",
-    role: "项目成员",
-    challenge: "如何把历史内容转化为空间中的可感知叙事，同时确保公众能够理解、进入并完成体验。",
-    approach: [
-      { label: "Narrative", title: "把史料转成空间线索", text: "围绕关键内容建立叙事节奏，让信息随用户移动自然展开。", image: "/images/p04-process-01.jpg" },
-      { label: "Guidance", title: "降低进入体验的门槛", text: "补齐现场指引与体验物料，帮助公众理解操作和空间路径。", image: "/images/p04-process-02.jpg" },
-      { label: "Iteration", title: "用内测修正真实问题", text: "依据测试反馈持续调整流程与表达，推进长期展陈落地。", image: "/images/p04-process-03.jpg" },
-    ],
-    outputs: [
-      { title: "空间叙事框架", image: "/images/p04-output-01.jpg" },
-      { title: "VR 体验流程", image: "/images/p04-output-02.jpg" },
-      { title: "现场指引物料", image: "/images/p04-output-03.jpg" },
-      { title: "内测迭代记录", image: "/images/p04-output-04.jpg" },
-    ],
-    accent: "red",
-  },
 ];
 
 export function getProject(slug: string) {
