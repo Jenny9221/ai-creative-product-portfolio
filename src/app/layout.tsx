@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Jenny Huang | AI 创意产品设计师",
-  description: "聚焦智能硬件、AIGC 交互与消费体验的个人作品集。",
+  title: "Jenny Huang | Selected Works",
+  description: "Jenny Huang 的产品、体验与交互设计作品集。",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

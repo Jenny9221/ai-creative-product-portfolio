@@ -2,7 +2,6 @@ import Link from "next/link";
 import { SiteHeader } from "@/components/site-header";
 import { ProjectVisual } from "@/components/project-visual";
 import { projects } from "@/data/projects";
-import Image from "next/image";
 
 const strengths = [
   { no: "01", title: "用户研究与需求洞察", skill: "定性定量混合调研、情景工作坊、需求权重排序", method: "回到真实场景提取痛点，不只依赖主观创意", solve: "产品脱离真实用户，需求混杂难以取舍" },
@@ -16,8 +15,8 @@ export default function PortfolioPage() {
     <main className="portfolio-page">
       <SiteHeader />
       <section className="portfolio-hero shell">
-        <div className="hero-kicker"><span>AI × INDUSTRIAL DESIGN</span><span>SELECTED WORKS · 2026</span></div>
-        <h1>AI 创意<br /><span>产品设计师</span></h1>
+        <div className="hero-kicker"><span>PRODUCT / EXPERIENCE / DESIGN</span><span>SELECTED WORKS · 2026</span></div>
+        <h1>把体验洞察，<br /><span>变成可落地的产品。</span></h1>
         <div className="hero-bottom">
           <p>把模糊感受转译为明确机会，<br />再让机会成为可验证的产品。</p>
           <a href="#projects" className="round-link" aria-label="浏览精选项目">↓</a>
@@ -27,16 +26,6 @@ export default function PortfolioPage() {
       <section className="about-section shell" id="about">
         <div className="section-label"><span>01</span> PROFILE</div>
         <div className="profile-grid">
-        <div className="portrait-placeholder">
-          <Image
-            src="/images/profile-main.png"
-            alt="Jenny Huang 的个人照片"
-            fill
-            sizes="(max-width: 900px) 100vw, 42vw"
-            className="portrait-image"
-            priority
-          />
-        </div> 
           <div className="profile-copy">
             <p className="profile-lead">从真实场景出发，<br />在体验与技术之间，<br /><em>寻找产品的新答案。</em></p>
             <p>擅长从真实场景挖掘用户痛点，完成从调研到方案收敛的完整过程。<br />追求可被评审、可对接研发、贴近真实用户的产品方案。</p>

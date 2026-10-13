@@ -21,7 +21,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
     <main className="case-page">
       <SiteHeader compact />
       <section className="case-hero shell">
-        <Link href="/portfolio#projects" className="back-link">← 返回精选项目</Link>
+        <Link href="/#projects" className="back-link">← 返回精选项目</Link>
         <div className="case-heading">
           <div><span>CASE / {project.index}</span><span>{project.year}</span></div>
           <h1>{project.title}</h1>
